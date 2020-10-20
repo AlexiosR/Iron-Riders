@@ -5,14 +5,18 @@ body {
 }
 .header {
     display: flex;
+    flex-direction: column;
+    
+}
+.picture-header{
+    display: flex;
+    margin-top: 0;
+    margin-right: 0;
+}
+.header-title {
     width: 100vw ;
     height: 25px;
     margin-top: 20px ;
     padding: 10px ;
     background-color:#333F49;  
-}
-.PictureHeader{
-    display: flex;
-    margin-top: 0;
-    margin-right: 0;
 }
