@@ -1,17 +1,44 @@
 body {
+    justify-content: center;
     margin: 0;
     padding: 0;
     display: flex;
 }
+
 .header {
     display: flex;
-    width: 100vw ;
-    height: 25px;
-    margin-top: 20px ;
-    padding: 10px ;
-    background-color:#333F49;  
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    border: 1px solid red;
 }
-.PictureHeader{
+
+.Увійти {
+    display: flex;
+    color: blue;
+}
+
+.header-dicker {
+    display: flex;
+    justify-content: space-around;
+    color: beige;
+    width: 100%;
+    height: 25px;
+    background-color: #333F49;
+}
+
+.header-link {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.text {
+    display: flex;
+    color: beige;
+}
+
+.picture-header {
     display: flex;
     margin-top: 0;
     margin-right: 0;
