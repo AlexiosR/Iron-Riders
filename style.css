@@ -10,12 +10,10 @@ body {
     flex-direction: column;
     justify-content: center;
     margin-top: 20px;
-    border: 1px solid red;
 }
 
 .Увійти {
     display: flex;
-    color: blue;
 }
 
 .header-dicker {
