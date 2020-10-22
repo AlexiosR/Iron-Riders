@@ -25,6 +25,14 @@ body {
     background-color: #333F49;
 }
 
+.third-header-link {
+    text-decoration: none;
+}
+
+.third-header-link.active {
+    color: black;
+}
+
 .header-link {
     margin-right: 1rem;
     color: white;
@@ -40,4 +48,26 @@ body {
     display: flex;
     margin-top: 0;
     margin-right: 0;
+}
+
+.second-header {
+    display: flex;
+
+}
+.a1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.a2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.languges {
+    display: flex;
+    align-items:center;
+    justify-content:center
+}
+.bottom-txt {
+    display: flex;
+    justify-content: space-between;
 }
