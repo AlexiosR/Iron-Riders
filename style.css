@@ -63,11 +63,12 @@ body {
 }
 .languges {
     display: flex;
-    padding: 10px;
     align-items:center;
+    padding: 10px;
 }
 .bottom-txt {
     display: flex;
+    color: white;
     justify-content: space-between;
     text-decoration: none;
     background-color: #333F49;
