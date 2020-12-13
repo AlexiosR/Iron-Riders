@@ -7,6 +7,8 @@ body {
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 954px;
 }
 .header {
     display: flex;
@@ -20,7 +22,7 @@ body {
     color: white;
 }
 
-.header-dicker {
+.header-main {
     display: flex;
     justify-content: space-around;
     color: beige;
@@ -51,14 +53,18 @@ body {
 
 .picture-header {
     display: flex;
+    object-position: 0 97%;
+    object-fit: cover;
     height: 200px;
     width: 954px;
     margin-top: 0;
     margin-right: 0;
 }
 .logo-picture {
-    width:208px ;
-    height: 101px;
+    object-position: 0 -44px;
+    object-fit: cover;
+    width: 178px;
+    height: 86px;
 }
 .second-header {
     display: flex;
@@ -71,16 +77,11 @@ body {
     padding: 5px;
 
 }
-/* .authorik { */
-    /* нужен ли доп стиль для p в цитате */
-/* } */
 .languges {
     display: flex;
     width: 100%;
-    /* align-items:center; */
     flex-direction: row;
     justify-content: space-around;
-    /* padding: 10px; */
 }
 .bottom-txt {
     display: flex;
@@ -99,8 +100,25 @@ body {
 }
 .container--js {
     display: flex;
-    height: 78px;
+    height: 100px;
     width: 400px;
-    border: 3px solid rgba(0, 0, 0, 0.6);
-    /* flex-direction: column; */
+    border: 1px solid rgba(0, 0, 0, 1);
+    font-size: 100%;
+    vertical-align: baseline;
+    font: inherit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer {
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    font-size: small;
 }
