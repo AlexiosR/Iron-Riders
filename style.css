@@ -1,12 +1,14 @@
 body {
     display: flex;
     justify-content: center;
+    background: url(https://www.wallpaperup.com/uploads/wallpapers/2014/08/05/417384/9c1a17914fa82bc284d094afab60f470.jpg);
     margin: 0;
     padding: 0;
 }
 .main {
     display: flex;
     flex-direction: column;
+    margin: 0;
     justify-content: space-between;
     width: 954px;
 }
@@ -53,7 +55,7 @@ body {
 
 .picture-header {
     display: flex;
-    object-position: 0 97%;
+    object-position: -1 0;
     object-fit: cover;
     height: 200px;
     width: 954px;
@@ -68,6 +70,7 @@ body {
 }
 .second-header {
     display: flex;
+    background: lightgray;
     align-items: center;
 
 }
@@ -90,7 +93,7 @@ body {
     background-color: black;
 }
 .bottom-link {
-    color: white;
+    color: lightgray;
     text-decoration: none;
 }
 .div-nn {
@@ -108,6 +111,7 @@ body {
     font: inherit;
     margin-top: 5px;
     margin-bottom: 5px;
+    background: lightgray;
 }
 .bottom {
     display: flex;
@@ -122,3 +126,33 @@ body {
     color: beige;
     font-size: small;
 }
+.randomPhotos {
+    /* после добавления картинки не показывает */
+    width:143px;
+    height: 101px;
+}
+.menuMain{
+    display: flex;
+    flex-direction: column; 
+    background: lightgray;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 5px solid black;
+    margin: 25px;
+    /* как сделать что-бы было именно справа */
+    height: 250px;
+    width: 225px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.button__render {
+    width: 50px;
+    height: 18px;
+}
+.sectionRender {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
